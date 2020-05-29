@@ -75,7 +75,7 @@ const IndexPage = () => (
       <li>Install Guide</li>
     </ul>
 
-    <p class="attribution">
+    <p>
       Challenge by{" "}
       <a
         href="https://www.frontendmentor.io?ref=challenge"
