@@ -3,6 +3,7 @@ module.exports = {
     title: `Clipboard`,
     description: `Implementation of a product landing page. From a frontendmentor.io challenge`,
     author: `@alexkmarshall1`,
+    canonicalUrl: `https://fervent-snyder-9664e3.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
