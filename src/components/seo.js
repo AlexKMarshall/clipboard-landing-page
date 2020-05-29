@@ -54,6 +54,10 @@ function SEO({ description, lang, meta, title }) {
           content: `${site.siteMetadata.canonicalUrl}${defaultMetaImage}`,
         },
         {
+          property: `og:url`,
+          content: `${site.siteMetadata.canonicalUrl}`,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
