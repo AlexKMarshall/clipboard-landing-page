@@ -4,12 +4,21 @@ import SEO from "../components/seo";
 
 import logo from "../images/logo.svg";
 import imageComputer from "../images/image-computer.png";
+import imageDevices from "../images/image-devices.png";
+import iconDenylist from "../images/icon-denylist.svg";
+import iconText from "../images/icon-text.svg";
+import iconPreview from "../images/icon-preview.svg";
+import logoGoogle from "../images/logo-google.png";
+import logoIbm from "../images/logo-ibm.png";
+import logoMicrosoft from "../images/logo-microsoft.png";
+import logoHp from "../images/logo-hp.png";
+import logoVectorGraphics from "../images/logo-vector-graphics.png";
 
 const IndexPage = () => (
   <>
     <SEO title="Landing Page" />
 
-    <img src={logo} alt="Clipboard logo of a C within a circle" srcset="" />
+    <img src={logo} alt="Clipboard logo of a C within a circle" />
 
     <h1 className="text-4xl font-bold tracking-tight">
       A history of everything you copy
@@ -59,26 +68,40 @@ const IndexPage = () => (
       Clipboard snippets in a few simple clicks.
     </p>
 
+    <img
+      src={imageDevices}
+      alt="A phone and tablet both showing green checkmark"
+    />
+
     <h2 className="text-3xl font-bold tracking-tight">
       Supercharge your workflow
     </h2>
     <p>We’ve got the tools to boost your productivity.</p>
 
+    <img src={iconDenylist} alt="Piece of paper with lines icon" />
     <h3 className="text-2xl font-bold tracking-tight">Create denylists</h3>
     <p className="text-sm">
       Ensure sensitive information never makes its way to your clipboard by
       excluding certain sources.
     </p>
 
+    <img src={iconText} alt="The letter A with a cursor" />
     <h3 className="text-2xl font-bold tracking-tight">Plain text snippets</h3>
     <p className="text-sm">
       Remove unwanted formatting from copied text for a consistent look.
     </p>
 
+    <img src={iconPreview} alt="An eye icon" />
     <h3 className="text-2xl font-bold tracking-tight">Sneak preview</h3>
     <p className="text-sm">
       Quick preview of all snippets on your Clipboard for easy access.
     </p>
+
+    <img src={logoGoogle} alt="Google logo" />
+    <img src={logoIbm} alt="IBM logo" />
+    <img src={logoMicrosoft} alt="Microsoft logo" />
+    <img src={logoHp} alt="HP logo" />
+    <img src={logoVectorGraphics} alt="Vector Graphics logo" />
 
     <h2 className="text-3xl font-bold tracking-tight">
       Clipboard for iOS and Mac OS
@@ -90,6 +113,8 @@ const IndexPage = () => (
 
     <button>Download for iOS</button>
     <button>Download for Mac</button>
+
+    <img src={logo} alt="Clipboard logo of a C within a circle" />
 
     <ul>
       <li>FAQs</li>
