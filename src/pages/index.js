@@ -3,6 +3,7 @@ import React from "react";
 import SEO from "../components/seo";
 
 import logo from "../images/logo.svg";
+import imageComputer from "../images/image-computer.png";
 
 const IndexPage = () => (
   <>
@@ -31,6 +32,8 @@ const IndexPage = () => (
       access your snippets immediately on all your devices. Our Mac and iOS apps
       will help you organize everything.
     </p>
+
+    <img src={imageComputer} alt="Computer monitor showing a green checkmark" />
 
     <h3 className="text-2xl font-bold tracking-tight">Quick Search</h3>
     <p className="text-sm">
