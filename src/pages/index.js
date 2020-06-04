@@ -2,9 +2,14 @@ import React from "react";
 
 import SEO from "../components/seo";
 
+import logo from "../images/logo.svg";
+
 const IndexPage = () => (
   <>
     <SEO title="Landing Page" />
+
+    <img src={logo} alt="Clipboard logo of a C within a circle" srcset="" />
+
     <h1 className="text-4xl font-bold tracking-tight">
       A history of everything you copy
     </h1>
